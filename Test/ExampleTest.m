@@ -60,7 +60,7 @@
 }
 
 - (void)testSimpleFail {
-	GHAssertTrue(YES, nil);
+	GHAssertTrue(NO, nil);
 }
 
 - (BOOL)shouldRunOnMainThread {
