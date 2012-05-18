@@ -84,17 +84,17 @@
     // Run after each test method
 }  
 
-- (void)testFoo {
-    NSString *a = @"foo";
-    GHTestLog(@"I can log to the GHUnit test console: %@", a);
-    
-    // Assert a is not NULL, with no custom error description
-    GHAssertNotNULL(a, nil);
-    
-    // Assert equal objects, add custom error description
-    NSString *b = @"bar";
-    GHAssertEqualObjects(a, b, @"A custom error message. a should be equal to: %@.", b);
-}
+//- (void)testFoo {
+//    NSString *a = @"foo";
+//    GHTestLog(@"I can log to the GHUnit test console: %@", a);
+//    
+//    // Assert a is not NULL, with no custom error description
+//    GHAssertNotNULL(a, nil);
+//    
+//    // Assert equal objects, add custom error description
+//    NSString *b = @"bar";
+//    GHAssertEqualObjects(a, b, @"A custom error message. a should be equal to: %@.", b);
+//}
 
 - (void)testBar {
     GHAssertTrue(TRUE, @"Yes it worked");
